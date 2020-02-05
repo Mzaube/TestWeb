@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body{
+    background-color: blue;
+}
 .menu {
   float:left;
   width:20%;

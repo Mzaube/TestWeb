@@ -57,3 +57,14 @@ p {font-size: 16px;}
 #hoverText:hover{
     background-color: red;
 }
+#transDiv{
+    width: 100px;
+    border-radius: 0px;
+    height: 100px;
+    background: red;
+    transition: width 1s,border-radius 1s;
+}
+#transDiv:hover {
+    width: 200px;
+    border-radius: 25px;
+}
